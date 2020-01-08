@@ -1,0 +1,24 @@
+* {
+    font-family: Basier Circle;
+}
+#test{
+    font-family: Roboto;
+}
+#description {
+    position: absolute;
+    width: 512px;
+    height: 208px;
+    left: 810px;
+    top: 376px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
