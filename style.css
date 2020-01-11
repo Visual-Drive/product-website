@@ -1,9 +1,7 @@
 * {
     font-family: Basier Circle;
 }
-#test{
-    font-family: Roboto;
-}
+
 #description {
     position: absolute;
     width: 512px;
@@ -21,4 +19,19 @@
     text-align: center;
 
     color: #000000;
+}
+
+header{
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
 }
