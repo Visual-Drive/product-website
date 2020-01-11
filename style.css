@@ -1,6 +1,12 @@
 * {
     font-family: Basier Circle;
 }
+.topic{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-size: 70px;
+}
 
 #description {
     position: absolute;
