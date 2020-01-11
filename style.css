@@ -41,3 +41,13 @@ li {
     display: inline-block;
     margin-right: 20px;
 }
+
+nav{
+    border-bottom: solid blue 3px;
+}
+
+.bild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
