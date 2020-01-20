@@ -9,6 +9,40 @@ html, body {
     margin: 0;
 }
 
+header{
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav{
+    border-bottom: solid #121B33 3px;
+}
+
+main {
+    height:75%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1px;
+}
 .topic{
     font-family: Basier Circle;
     font-style: normal;
@@ -44,24 +78,6 @@ html, body {
     color: #000000;
 }
 
-header{
-    padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav{
-    border-bottom: solid #121B33 3px;
-}
 
 .bild{
     height:25%;
@@ -89,13 +105,6 @@ nav{
     line-height: 28px;
     color:white;
     text-decoration: none;
-}
-main {
-    height:75%;
-    width:100%;
-    display:flex;
-    flex-direction: row;
-
 }
 
 .description {
@@ -149,13 +158,6 @@ main {
     letter-spacing: 1px;
 }
 
-h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 1px;
-}
 
 .team-section {
     display: flex;
@@ -204,4 +206,41 @@ h3 {
 
 #current{
     font-weight: bold;
+}
+
+.progress-container {
+
+}
+
+.progressBar {
+    width: 200px;
+    height:50px;
+    border: 2px solid #121B33;
+    border-radius: 5px;
+    display:flex;
+    justify-content:flex-start;
+    color: #3498DB;
+    font-size: 24px;
+    font-weight:900;
+}
+
+.progress {
+    background-color: #121B33;
+    width:60%;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbars {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
 }
