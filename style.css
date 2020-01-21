@@ -1,6 +1,7 @@
 * {
     font-family: Basier Circle;
     color:#121B33;
+    box-sizing: border-box;
 }
 html, body {
     width:100%;
@@ -15,13 +16,10 @@ header{
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 li {
     display: inline-block;
-    margin-right: 20px;
 }
 
 nav{
@@ -197,7 +195,9 @@ h3 {
 .navitem{
     color: #121B33;
     font-size: 20px;
-    margin-left: 4%;
+    width:10%;
+    text-align: center;
+
 }
 
 .navitem:hover{
