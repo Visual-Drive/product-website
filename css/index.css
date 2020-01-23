@@ -1,0 +1,56 @@
+@import "../style.css";
+
+
+.image-container {
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.threed {
+    height:80%;
+}
+
+
+.description {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+
+.start-button:hover {
+    cursor:pointer;
+    background-color:#3498DB;
+}
+
+.start-button > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color:white;
+    text-decoration: none;
+}
+
+.start-button {
+    padding:1rem;
+    outline:none;
+    border: none;
+    background-color:#121B33;
+}
+
+.bild{
+    height:25%;
+    width:100%;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+@import "../style.css";
+
+
+.image-container {
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.status-image {
+    height:80%;
+}
+
+
+.progressBar {
+    width: 200px;
+    height:50px;
+    border: 2px solid #121B33;
+    border-radius: 5px;
+    display:flex;
+    justify-content:flex-start;
+    color: #3498DB;
+    font-size: 24px;
+    font-weight:900;
+}
+
+.progress {
+    background-color: #121B33;
+    width:60%;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbars {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
