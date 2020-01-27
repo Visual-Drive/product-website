@@ -1,1 +1,15 @@
 @import "../style.css";
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
