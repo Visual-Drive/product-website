@@ -24,3 +24,9 @@
     flex-direction: row;
     align-items: center;
 }
+
+.member-picture:hover{
+    color: black;
+}
+
+
