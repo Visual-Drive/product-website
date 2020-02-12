@@ -2,13 +2,22 @@
 
 
 .team-section {
+    margin: 0 10%;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.team-description {
+.team-member{
+    margin: 10px 10px;
+}
+.team-member-description{
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+
+.team-member-job {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -16,17 +25,50 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #121B33;
-}
-.IT, .ME {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
+    margin-top: 5px;
 }
 
 .member-picture:hover{
     color: black;
 }
+.team-member-info{
+    width: 300px;
+    height:200px;
+    background-color: #121B33;
+    color:white;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in-out;
+    -moz-transition: opacity 200ms ease-in-out;
+    -ms-transition: opacity 200ms ease-in-out;
+    -o-transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
+    cursor: pointer;
+}
+.team-member-info:hover{
+    opacity: 1;
+}
+.team-member-info > h3 {
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    color:white;
+    padding: 30px 10px 15px;
+}
 
+.team-member-info > p {
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    color:white;
+    padding: 5px;
+}
 

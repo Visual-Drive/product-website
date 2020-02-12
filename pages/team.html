@@ -9,67 +9,93 @@
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="../index.html"><img src="../pictures/logo/191006_vsd_logo_white-on-darkblue.png"
-                                             width="300"></a></li>
-            <li class="navitem"><a href="idee.html">Die Idee</a></li>
-            <li class="navitem"><a href="status.html">Projektstatus</a></li>
-            <li class="navitem" id="current"><a href="team.html">Team</a></li>
-            <li class="navitem"><a href="sponsoren.html">Sponsoren</a></li>
-            <li class="navitem"><a href="datenschutz.html">Datenschutz</a></li>
-            <li class="navitem"><a href="impressum.html">Impressum</a></li>
+        <div class="main-menu">
+            <h1 class="hide">Visual Drive</h1>
+            <a href="../index.html"><img src="../pictures/logo/191006_vsd_logo_white-on-darkblue.png"
+                                         width="300"></a>
+            <ul class="main-links">
+                <li class="navitem"><a class="navitem-link" href="idee.html">Die Idee</a></li>
+                <li class="navitem"><a class="navitem-link" href="status.html">Projektstatus</a></li>
+                <li class="navitem" id="current"><a class="navitem-link" href="team.html">Team</a></li>
+                <li class="navitem"><a class="navitem-link" href="sponsoren.html">Sponsoren</a></li>
+                <li class="navitem"><a class="navitem-link" href="sponsoren.html">Demo</a></li>
+            </ul>
+        </div>
+        <ul class="footer-links">
+            <li class="navitem-footer"><a class="navitem-link-footer" href="datenschutz.html">Datenschutz</a></li>
+            <li class="navitem-footer"><a class="navitem-link-footer" href="impressum.html">Impressum</a></li>
         </ul>
     </nav>
 </header>
-<div class="heading">
-    <h1 class="topic">Das Team</h1>
-    <div class="seperator"></div>
-    <div class="team-section">
-        <div class="IT">
+<main>
+    <div class="content-box-col">
+        <div class="heading-with-line">
+            <h2 class="topic">Das Team</h2>
+            <div class="seperator"></div>
+        </div>
+        <div class="team-section">
             <div class="team-member">
-                <img src="../pictures/team/Kubesch2_klein.jpg" alt="Oliver Kubesch" width="300">
-                <h3>Oliver Kubesch</h3>
-                <p class="team-description"> Projektleiter - IT </p>
+                <div>
+                    <div class="team-member-info">
+                        <h3>Aufgaben</h3>
+                        <p>Projektmanagement</p>
+                        <p>Corporate Identity</p>
+                        <p>Webentwicklung</p>
+                        <p>Video</p>
+                    </div>
+                    <img src="../pictures/team/Kubesch2_klein.jpg" alt="Oliver Kubesch" width="300">
+                </div>
+                <div class="team-member-description">
+                    <h3>Oliver Kubesch</h3>
+                    <p class="team-member-job"> Projektleiter - IT </p>
+                </div>
             </div>
             <div class="team-member">
                 <img src="../pictures/team/Mistrafovic2_klein.jpg" alt="Vjeko Mistrafovic" width="300">
-                <h3>Vjeko Mistrafovic</h3>
-                <p class="team-description"> Stv. Projektleiter - IT </p>
+                <div class="team-member-description">
+                    <h3>Vjeko Mistrafovic</h3>
+                    <p class="team-member-job"> Stv. Projektleiter - IT </p></div>
             </div>
             <div class="team-member">
                 <img src="../pictures/team/Grübling2_klein.jpg" alt="Alexander Grübling" width="300">
-                <h3>Alexander Grübling</h3>
-                <p class="team-description"> Projektmitarbeiter - IT </p>
+                <div class="team-member-description">
+                    <h3>Alexander Grübling</h3>
+                    <p class="team-member-job"> Projektmitarbeiter - IT </p></div>
             </div>
             <div class="team-member">
                 <img src="../pictures/team/Ott2_klein.jpg" alt="Dominik Ott" width="300">
-                <h3>Dominik Ott</h3>
-                <p class="team-description"> Projektmitarbeiter - IT </p>
+                <div class="team-member-description">
+                    <h3>Dominik Ott</h3>
+                    <p class="team-member-job"> Projektmitarbeiter - IT </p></div>
             </div>
-        </div>
-        <div class="ME">
             <div class="team-member">
                 <img src="../pictures/team/Hoffmann2_klein.jpg" alt="Patrick Hoffmann" width="300">
-                <h3>Patrick Hoffmann</h3>
-                <p class="team-description"> Projektleiter - ME</p>
+                <div class="team-member-description">
+                    <h3>Patrick Hoffmann</h3>
+                    <p class="team-member-job"> Projektleiter - ME</p></div>
             </div>
             <div class="team-member">
                 <img src="../pictures/team/Kossik2_klein.jpg" alt="Phillipp Kossik" width="300">
-                <h3>Phillipp Kossik</h3>
-                <p class="team-description"> Stv. Projektleiter - ME </p>
+                <div class="team-member-description">
+                    <h3>Phillipp Kossik</h3>
+                    <p class="team-member-job"> Stv. Projektleiter - ME </p></div>
             </div>
             <div class="team-member">
                 <img src="../pictures/team/Lehoczky2_klein.jpg" alt="Daniel Lehoczky" width="300">
-                <h3>Daniel Lehoczky</h3>
-                <p class="team-description"> Projektmitarbeiter - ME </p>
+                <div class="team-member-description">
+                    <h3>Daniel Lehoczky</h3>
+                    <p class="team-member-job"> Projektmitarbeiter - ME </p>
+                </div>
             </div>
             <div class="team-member">
                 <img src="../pictures/team/Eggenhofer1_klein.jpg" alt="Elias Eggenhofer" width="300">
-                <h3>Elias Eggenhofer</h3>
-                <p class="team-description"> Projektmitarbeiter - ME </p>
+                <div class="team-member-description">
+                    <h3>Elias Eggenhofer</h3>
+                    <p class="team-member-job"> Projektmitarbeiter - ME </p>
+                </div>
             </div>
+
         </div>
-    </div>
-</div>
+</main>
 </body>
 </html>
