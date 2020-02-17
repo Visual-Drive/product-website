@@ -76,3 +76,16 @@
 
     color: #FFFFFF;
 }
+
+/*Media Queries */
+@media only screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .content {
+        flex-direction: column;
+    }
+}

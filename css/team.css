@@ -71,4 +71,47 @@
     color:white;
     padding: 5px;
 }
+.team-image {
+    width: 300px;
+}
+
+.team-member-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1px;
+}
+/* Media Querys */
+
+@media only screen and (max-width: 1600px) {
+    .team-image {
+        width:250px;
+    }
+    .team-section {
+        margin: 0 10%;
+    }
+    .team-member-info {
+        width:250px;
+        height:166.55px;
+    }
+
+    .team-member-info > p {
+        padding: 3px;
+    }
+
+    .team-member-info > h3 {
+        padding: 20px 10px 11px;
+    }
+
+    .team-member-name{
+        font-size: 23px;
+    }
+    .team-member-job{
+        font-size:12px;
+    }
+    .team-member {
+        margin: 5px 10px;
+    }
+}
 
