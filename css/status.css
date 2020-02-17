@@ -2,7 +2,6 @@
 
 
 .image-container {
-    width:50%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -10,13 +9,11 @@
 
 
 .status-image {
-    height:80%;
+    width:100%;
 }
 
 
 .progressBar {
-    width: 200px;
-    height:50px;
     border: 2px solid #121B33;
     border-radius: 5px;
     display:flex;
@@ -36,25 +33,46 @@
 }
 
 .progressbars {
-    width:50%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     font-style: normal;
     font-size: 36px;
     line-height: 43px;
 }
-
+/*
 .content {
     display: flex;
     flex-direction: row;
     align-items: center;
+} */
+
+
+.content {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.status-type {
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }

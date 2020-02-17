@@ -28,7 +28,7 @@ main {
     width:100%;
     display: flex;
     flex-direction: row;
-    margin-top: 150px; /* adapt to nav height */
+    margin-top: 65px; /* adapt to nav height */
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
@@ -69,7 +69,7 @@ h3 {
 
 }
 
-content-box-col{
+.content-box-col{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -87,8 +87,17 @@ content-box-col{
 }
 
 
-.hide{
-    display: none;
+.hide {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 /* NAVBAR */
 

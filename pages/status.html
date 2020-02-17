@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projektstatus</title>
     <link href="../css/status.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -9,48 +10,63 @@
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="../index.html"><img src="../pictures/logo/191006_vsd_logo_white-on-darkblue.png"
-                                             width="300"></a></li>
-            <li class="navitem"><a href="idee.html">Die Idee</a></li>
-            <li class="navitem" id="current"><a href="status.html">Projektstatus</a></li>
-            <li class="navitem"><a href="team.html">Team</a></li>
-            <li class="navitem"><a href="sponsoren.html">Sponsoren</a></li>
-            <li class="navitem"><a href="datenschutz.html">Datenschutz</a></li>
-            <li class="navitem"><a href="impressum.html">Impressum</a></li>
+        <div class="main-menu">
+            <h1 class="hide">Visual Drive</h1>
+            <a href="../index.html"><img src="../pictures/logo/191006_vsd_logo_white-on-darkblue.png"
+                                         width="300"></a>
+            <ul class="main-links">
+                <li class="navitem"><a class="navitem-link" href="idee.html">Die Idee</a></li>
+                <li class="navitem" id="current"><a class="navitem-link" href="status.html">Projektstatus</a></li>
+                <li class="navitem"><a class="navitem-link" href="team.html">Team</a></li>
+                <li class="navitem"><a class="navitem-link" href="sponsoren.html">Sponsoren</a></li>
+                <li class="navitem"><a class="navitem-link" href="demo.html">Demo</a></li>
+            </ul>
+        </div>
+        <ul class="footer-links">
+            <li class="navitem-footer"><a class="navitem-link-footer" href="datenschutz.html">Datenschutz</a></li>
+            <li class="navitem-footer"><a class="navitem-link-footer" href="impressum.html">Impressum</a></li>
         </ul>
     </nav>
 </header>
-<div class="heading-with-line">
-    <h1 class="topic">Projektstatus</h1>
-    <div class="seperator"></div>
-</div>
-<div class="content">
-    <div class="image-container">
-        <img class="status-image" src="../pictures/logo/icon_groß.jpg">
-        <p class="topic">68%</p>
+<main>
+    <div class="content-box-col">
+        <div class="heading-with-line">
+            <h1 class="topic">Projektstatus</h1>
+            <div class="seperator"></div>
+        </div>
+        <div class="content">
+            <div class="image-container">
+                <img class="status-image" src="../pictures/logo/icon_groß.jpg">
+                <p class="topic">68%</p>
+            </div>
+            <div class="progressbars">
+                <div class="progress-container">
+                    <div class="progressBar">
+                        <div class="progress">
+                            <p class="status-type">Planung</p>
+                        </div>
+                        <div>70%</div>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progressBar">
+                        <div class="progress">
+                            <p class="status-type">Durchführung</p>
+                        </div>
+                        <div>70%</div>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div class="progressBar">
+                        <div class="progress">
+                            <p class="status-type">Testing</p>
+                        </div>
+                        <div>70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="progressbars">
-        <div class="progress-container">
-            <div class="progressBar">
-                <div class="progress"></div>
-                <div>70%</div>
-            </div>
-        </div>
-        <div class="progress-container">
-            <div class="progressBar">
-                <div class="progress"></div>
-                <div>70%</div>
-            </div>
-        </div>
-        <div class="progress-container">
-            <div class="progressBar">
-                <div class="progress"></div>
-                <div>70%</div>
-            </div>
-        </div>
-    </div>
-</div>
 </main>
 </div>
 </body>
