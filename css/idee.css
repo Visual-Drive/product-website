@@ -5,8 +5,8 @@
     height:5%;
 }
 .icon {
-    width: 30%;
-    height:30%;
+    width: 40%;
+    height:40%;
 }
 .ideas {
     display:flex;
@@ -43,24 +43,14 @@
     color: #000000;
 }
 
-.idea-heading{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
+.icon-detail h3{
+    margin: 9px 0 0 0 ;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 31px;
 }
 
-.idea-heading div{
-    text-align: center;
-}
-
-.idea-heading-detail {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
 .desc {
     margin: 0 10% 20px;
     text-align: center;
@@ -70,6 +60,9 @@
     text-align: center;
     margin: 0 30px 20px;
     font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 31px;
 }
 
 .video-section{
@@ -94,4 +87,38 @@
 
 .brille {
     width:50%;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.icon-detail {
+    margin: 50px 0 60px;
+}
+
+.icon-eye {
+    width: 170.7pt;
+    height: 89.5pt;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1150px) {
+    .video-section {
+        flex-direction: column-reverse;
+    }
+    .video-detail {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .icons{
+        flex-direction: column;
+    }
 }
