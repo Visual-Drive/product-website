@@ -4,7 +4,10 @@
     width:5%;
     height:5%;
 }
-
+.icon {
+    width: 30%;
+    height:30%;
+}
 .ideas {
     display:flex;
     flex-direction: column;
@@ -45,12 +48,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
     margin: 20px;
 }
 
+.idea-heading div{
+    text-align: center;
+}
+
+.idea-heading-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .desc {
-    margin: 0 50px 20px;
+    margin: 0 10% 20px;
     text-align: center;
 }
 
@@ -78,4 +90,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+
+.brille {
+    width:50%;
 }
