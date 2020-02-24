@@ -39,3 +39,39 @@
     margin-top: 20px;
     color: #000000;
 }
+
+.idea-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+}
+
+.desc {
+    margin: 0 50px 20px;
+    text-align: center;
+}
+
+.sub-heading {
+    text-align: center;
+    margin: 0 30px 20px;
+    font-size: 35px;
+}
+
+.video-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.video{
+    width: 100%;
+    margin: 20px;
+}
+.video-detail {
+    width: 100%;
+    margin: 20px;
+}
