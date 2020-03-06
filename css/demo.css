@@ -1,1 +1,6 @@
 @import "../style.css";
+
+.desc {
+    margin: 0 10% 20px;
+    text-align: center;
+}

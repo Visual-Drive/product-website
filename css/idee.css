@@ -22,13 +22,20 @@
 }
 
 .idea > img {
-    width:30%;
+    width:40%;
+    margin: 40px;
 }
 
-.idea > p {
-    width:70%;
+.idea-desc{
+    width:50%;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-
+.idea-desc >p {
+    font-size: 18px;
+}
 .description {
 
     font-family: Basier Circle;
@@ -107,6 +114,11 @@
     height: 89.5pt;
 }
 
+.beitrag-detail {
+    text-align: center;
+    margin: 10px 100px;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1150px) {
@@ -115,6 +127,13 @@
     }
     .video-detail {
         text-align: center;
+
+    }
+    .video-detail > p {
+        margin: 0 50px;
+    }
+    .idea {
+        flex-direction: column;
     }
 }
 @media only screen and (max-width: 435px) {
