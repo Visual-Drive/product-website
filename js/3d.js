@@ -14,5 +14,4 @@ loader.load( '../pictures/3D/autoschlüssel-kubesch.glb', function ( gltf ) {
 }, undefined, function ( error ) {
 
     console.error( error );
-
 } );
