@@ -1,17 +1,28 @@
-var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
-var renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+var camera, scene, renderer;
+var geometry, material, mesh;
 
-var loader = new THREE.GLTFLoader();
+init();
+animate();
 
-loader.load( '../pictures/3D/autoschlüssel-kubesch.glb', function ( gltf ) {
+function init() {
 
-    scene.add( gltf.scene );
+    camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
+    camera.position.z = 1;
 
-}, undefined, function ( error ) {
+    scene = new THREE.Scene();
 
-    console.error( error );
-} );
+
+
+    renderer = new THREE.WebGLRenderer( { antialias: true } );
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+
+}
+
+function animate() {
+
+    requestAnimationFrame( animate );
+    renderer.render( scene, camera );
+
+}
